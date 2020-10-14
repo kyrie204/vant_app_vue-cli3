@@ -20,4 +20,4 @@ npm run build
 npm run lint
 ```
 **该demo是自己搭建的一个移动端的架子 且引入了`lib-flexible` `postcss-pxtorem`对移动端进行适配**
-
+ 
