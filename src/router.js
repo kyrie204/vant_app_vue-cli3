@@ -12,17 +12,15 @@ export default new Router({
       path: "/",
       name: "root",
       component: Nav,
-      redirect: '/index',
-      children: [
-          {
-            path: "/index",
-            name: "index",
-            component: () => import("./views/index.vue")
-          }
-        ,{
+      redirect: '/login',
+      children: [{
+          path: "/index",
+          name: "index",
+          component: () => import("./views/index.vue")
+        }, {
           path: "/about",
           name: "about",
-          component: () =>import( "./views/About.vue")
+          component: () => import("./views/About.vue")
         },
         {
           path: "/home",
@@ -31,6 +29,11 @@ export default new Router({
         },
       ]
     },
+    {
+      path: "/login",
+      name: "login",
+      component: () => import("./views/login.vue")
+    }
     // {
     //   path: "/about",
     //   name: "about",

@@ -21,13 +21,13 @@
     </div>
     <div style="display: flex;justify-content:center">
       <div class="test"></div>
-      <!-- <div class="test"></div>
       <div class="test"></div>
       <div class="test"></div>
       <div class="test"></div>
       <div class="test"></div>
       <div class="test"></div>
-      <div class="test1" style=""></div> -->
+      <div class="test"></div>
+      <div class="test1" style=""></div>
     </div>
     <div class="cycle">
       <div>
